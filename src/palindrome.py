@@ -9,3 +9,17 @@ def is_palindrome(palabra):
     
     palindromo = palabra_limpia[::-1]
     
+    if palindromo==palabra_limpia:
+        print(f"la palabra/frase {palabra} es un palindromo")
+        return True
+    else:
+        print(f"la palabra/frase {palabra} es un no palindromo")
+        return False
+
+def main():
+    palabra=input("ingrese una palabra")
+    is_palindrome(palabra)
+        
+
+if __name__=="__main__":
+    main()
