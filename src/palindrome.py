@@ -1,2 +1,2 @@
-def is_palindrome():
-    pass
+def is_palindrome(palabra):
+    return
